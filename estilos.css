@@ -1,5 +1,11 @@
+.ajustes_titulo{
+    color: darkolivegreen;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
 .tipoletra_tamaño{
-    color: slategrey;
+    color: grey;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
 }
