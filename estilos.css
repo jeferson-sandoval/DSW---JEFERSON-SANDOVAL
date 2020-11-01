@@ -27,6 +27,8 @@ body{
     width: 95%;
     margin: 0 auto;
     text-align: center;
+    float: left;
+    list-style: none;
 }
 
 .estilo_tabla{
