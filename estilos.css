@@ -17,4 +17,10 @@
     padding: 40px;
     background-color:  #03333333;
     width: 90%;
+    text-align: center;
+}
+
+.estilo_tabla{
+    width: 80%;
+    margin: 50px;
 }
