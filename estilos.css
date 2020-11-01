@@ -3,6 +3,9 @@
     font-size: 200%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    padding: 30px;
+    background-color: #A54686;    ;
+    width: 95%;
 }
 .tipoletra_tamaño{
     color: grey;
@@ -14,9 +17,9 @@
     text-align: center;
 }
 .menu_estilo{
-    padding: 40px;
-    background-color:  #03333333;
-    width: 90%;
+    padding: 30px;
+    background-color:  #50B748;
+    width: 95%;
     text-align: center;
 }
 
