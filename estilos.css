@@ -5,7 +5,6 @@ body{
 .ajustes_titulo{
     color: black;
     font-size: 200%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 30px;
     background-color: #A54686;    ;
@@ -13,7 +12,6 @@ body{
 }
 .tipoletra_tamaño{
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
 }
 
