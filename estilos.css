@@ -13,3 +13,8 @@
 .aliniación_texto{
     text-align: center;
 }
+.menu_estilo{
+    padding: 40px;
+    background-color:  #005883;
+    width: 100%;
+}
