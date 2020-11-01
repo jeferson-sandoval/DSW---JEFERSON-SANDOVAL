@@ -1,4 +1,7 @@
 body{
+    background-color: #005883;
+}
+body{
     font-family: cursive;
 }
 
@@ -7,7 +10,7 @@ body{
     font-size: 200%;
     text-align: center;
     padding: 30px;
-    background-color:  #005883;
+    background-color: #F47920;
     width: 95%;
 }
 .tipoletra_tamaño{
