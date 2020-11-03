@@ -17,8 +17,8 @@ body{
 .ajustes_Pie_pagina{
     padding: 20px;
     background-color: #50B748;
-    width: 95%;
-    font-size: 200%;
+    width: 97%;
+    text-align: right;
 }
 .tipoletra_tamaño{
     color: black;
