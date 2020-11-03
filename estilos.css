@@ -13,6 +13,13 @@ body{
     background-color: #F47920;
     width: 95%;
 }
+
+.ajustes_Pie_pagina{
+    color: black;
+    padding: 20px;
+    background-color: #50B748;
+    width: 100%;
+}
 .tipoletra_tamaño{
     color: black;
     font-size: 150%;
