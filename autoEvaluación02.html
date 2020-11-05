@@ -11,19 +11,98 @@
 </head>
 <body>
     
-    <h1 class="ajustes_titulo">GIT y GITHUB</h1>
-
-    <div class="menu_estilo">
-        <a href="informacionInicial.html"> INICIO </a> -
-        <a href="conceptos01.html"> CONCEPTOS01 </a> -
-        <a href="conceptos02.html"> CONCEPTOS02 </a> -
-        <a href="recursos01.html"> RECURSOS01 </a> -
-        <a href="recursos02.html"> RECURSOS02 </a> -
-        <a href="autoEvaluación01.html"> AUTOEVALUACIÓN01 </a> -
-        <a href="autoEvaluación02.html"> AUTOEVALUACIÓN02 </a> -
-        <a href="datosAutor.html"> DATOS DEL AUTOR </a> 
+    <title>Menu Desplegable</title>
+    <style type="text/css">
         
-    </div>
+        * {
+            margin:0px;
+            padding:0px;
+        }
+        
+        #header {
+            margin:auto;
+            width:500px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        
+        ul, ol {
+            list-style:none;
+        }
+        
+        .nav > li {
+            float:left;
+        }
+        
+        .nav li a {
+            background-color:#000;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 12px;
+            display:block;
+        }
+        
+        .nav li a:hover {
+            background-color:#434343;
+        }
+        
+        .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+        
+        .nav li:hover > ul {
+            display:block;
+        }
+        
+        .nav li ul li {
+            position:relative;
+        }
+        
+        .nav li ul li ul {
+            right:-140px;
+            top:0px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <h1 class="ajustes_titulo">GIT y GITHUB</h1> <br> 
+    
+    <div id="header">
+        <ul class="nav">
+            <li><a href="informacionInicial.html">Informacion Inicial</a>
+                <ul>
+                    <li><a href="datosAutor.html"> Datos del autor</a></li>
+                </ul>
+            
+            </li>
+            
+            <li><a href=""> Conceptos</a>
+                <ul>
+                    <li><a href="conceptos01.html">Conceptos 01</a></li>
+                    <li><a href="conceptos02.html">Conceptos 02</a>
+                </ul>
+            </li>
+            
+            <li><a href=""> Recursos </a>
+                <ul>
+                    <li><a href="recursos01.html">Recursos 01</a></li>
+                    <li><a href="recursos02.html">Recursos 02</a></li>
+                </ul>
+            </li>
+            
+            <li><a href=""> Auto Evaluación </a>
+                <ul>
+                    <li><a href="autoEvaluación01.html">Auto Evaluación 01</a></li>
+                    <li><a href="autoEvaluación02.html">Auto Evaluación 02</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </div> <br> <br>
 
     <center>
         <h2> Auto Evaluación 02 </h2>
