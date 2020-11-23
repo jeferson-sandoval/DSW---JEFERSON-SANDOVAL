@@ -26,8 +26,9 @@ body{
     font-size: 150%;
 }
 
-.aliniación_texto{
-    text-align: center;
+.ajustes_texto{
+    border: mediumaquamarine;
+    margin: 20px;
 }
 .menu_estilo{
     padding: 30px;
